@@ -4,6 +4,8 @@
   margin:0;
   padding:0;
   text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.6s;
   box-sizing: border-box;
 }
 body{
@@ -13,14 +15,31 @@ body{
   text-align: center;
   overflow-x: hidden;
 }
-@keyframes animateDown {
+@keyframes animatedown {
   0%{
     transform: translateY(0);
   }
   40%{
-    transform: translateY(1px);
+    transform: translateY(2px);
   }
   60%{
-    transform: translateY(10px);
+    transform: translateY(5px);
+  }
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
   }
 }

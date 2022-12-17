@@ -5,9 +5,8 @@ import Section from './components/Section.js';
 function App() {
   return (
     <div className="App">
-     {/* <Header/> */}
-     {/* <Home/> */}
-     <Section/>
+    <Header/>
+    <Home/>
     </div>
   );
 }
