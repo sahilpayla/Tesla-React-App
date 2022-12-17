@@ -27,13 +27,17 @@ const Header = () => {
             <BurgerNav show={closeStatus}>
                 <CustomClose onClick={() => setCloseStatus(false)}>×</CustomClose>
                 <li> <a href="#">Existing Inventory</a> </li>
-                <li> <a href="#">Existing </a> </li>
-                <li> <a href="#">Existing </a> </li>
-                <li> <a href="#">Existing </a> </li>
-                <li> <a href="#">Existing </a> </li>
-                <li> <a href="#">Existing </a> </li>
-                <li> <a href="#">Existing </a> </li>
-                <li> <a href="#">Existing </a> </li>
+                <li> <a href="#">Used Inventory </a> </li>
+                <li> <a href="#">Trade-In </a> </li>
+                <li> <a href="#">Test Drive </a> </li>
+                <li> <a href="#">Insurance </a> </li>
+                <li> <a href="#">CyberTruck </a> </li>
+                <li> <a href="#">Semi </a> </li>
+                <li> <a href="#">Charging </a> </li>
+                <li> <a href="#">Commercial Energy </a> </li>
+                <li> <a href="#">Utilities </a> </li>
+                <li> <a href="#">Find US </a> </li>
+                <li> <a href="#">Support </a> </li>
             </BurgerNav>
         </Container>
     )
@@ -60,11 +64,10 @@ const Menu = styled.div`
         font-weight:bold;
         letter-spacing:1px;
         flex-wrap:nowrap;
-        font-size:14px;
+        font-size:15px;
         margin-right:2px;
             &:hover{
-            background-color:#333333;
-            color:white;
+            background-color:rgb(200 218 218);
             transition:0.2s;
         }
     }
@@ -81,9 +84,9 @@ const RightMenu = styled.div`
         color:black;
         padding:5px 10px;
         margin-right:10px;
+        font-size:15px;
             &:hover{
-            background-color:#333333;
-            color:white;
+            background-color:rgb(200 218 218);
             transition:0.2s;
             padding:5px 10px;
         }
@@ -107,11 +110,9 @@ const CustomMenu = styled.div`
     }
 `
 const BurgerNav = styled.div`
-    a{
-        color:white;
-    }
     li{
-        padding:15px;
+        padding:10px 10px;
+        width:100%;
     }
     transform:${props => props.show ? 'translateX(0)' : 'translateX(100%)'};
     transition: transform 0.9s;
@@ -122,9 +123,19 @@ const BurgerNav = styled.div`
     list-style:none;
     width:300px;
     background-color:black;
-    opacity:0.8;
+    opacity:0.5;
+    font-size:14px;
     padding: 20px; 
+    font-weight:bold;
     text-align:left;
+    a{
+        padding:5px 10px;
+        color:white;
+        &:hover{
+           background-color:darkgrey;
+           color:black; 
+        }
+    }
 `
 const CustomClose = styled.div`
     color:white;

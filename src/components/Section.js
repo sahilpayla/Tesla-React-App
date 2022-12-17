@@ -61,12 +61,14 @@ const LeftButton = styled.div`
     background-color:  rgb(50, 50, 57);
     color:white;
     height:40px;
-    font-size:12px;
+    font-size:14px;
     width:256px;
     display:flex;
     justify-content:center;
     align-items:center;
-    border-radius:20px;
+    font-weight:bold;
+    border-radius:5px;
+    margin-left:40px;
     opacity:0.85;
     margin-top:10px;
     cursor:pointer;

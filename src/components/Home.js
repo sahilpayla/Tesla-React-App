@@ -35,17 +35,17 @@ const Home = () => {
         />
         <Section
             title="Solar Panels"
-            description="Order Online For Touchless Delivery"
+            description="Lowest Cost Solar Panels in America"
             backgroundImg="solar-panel.jpg"
-            leftBtnText="Custom Order"
-            rightBtnText="Existing Inventory"
+            leftBtnText="Order Now"
+            rightBtnText="Learn More"
         />
         <Section
             title="Solar Roof"
-            description="Order Online For Touchless Delivery"
+            description="Produce Clean Energy From Your Roof"
             backgroundImg="solar-roof.jpg"
-            leftBtnText="Custom Order"
-            rightBtnText="Existing Inventory"
+            leftBtnText="Order Now"
+            rightBtnText="Learn More"
         />
         <Section
             title="Accessories"
