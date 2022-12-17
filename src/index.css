@@ -1,0 +1,26 @@
+*
+{
+  font-family: "Rubik";
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body{
+  width:100%;
+  color: rgb(65, 65, 71);
+  background-color: rgb(54, 52, 58);
+  text-align: center;
+  overflow-x: hidden;
+}
+@keyframes animateDown {
+  0%{
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(1px);
+  }
+  60%{
+    transform: translateY(10px);
+  }
+}
